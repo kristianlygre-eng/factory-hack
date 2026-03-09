@@ -236,7 +236,7 @@ After deploying resources, configure environment variables in the `.env` file. E
 cd challenge-0
 
 # Extract connection keys
-./get-keys.sh --resource-group $RESOURCE_GROUP
+./get-keys.sh
 
 # Verify .env file
 cat ../.env
